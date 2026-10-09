@@ -1,0 +1,14 @@
+{
+  "name": "care_app",
+  "version": "1.0.0",
+  "description": "This is a synthetic/mock implementation based on the supplied Care App UX & mock-build guide. Names, dates, balances and clinical data are test fixtures only.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4"
+  }
+}

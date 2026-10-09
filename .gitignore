@@ -1,0 +1,49 @@
+# Node.js dependencies
+
+node_modules/
+
+# Playwright output
+
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Flutter generated files
+
+flutter_app/.dart_tool/
+flutter_app/build/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/coverage/
+
+# Android generated and local files
+
+flutter_app/android/local.properties
+flutter_app/android/key.properties
+flutter_app/android/.gradle/
+
+# Go build outputs
+
+go_mock/*.exe
+go_mock/*.test
+
+# Environment files and secrets
+
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/service-account*.json
+**/firebase-adminsdk*.json
+
+# IDE and operating system files
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
